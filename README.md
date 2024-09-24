@@ -80,5 +80,3 @@ Contributions are welcome! Please fork this repository, make your changes, and s
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-By including both GitHub and Google Drive links, this README makes it easy for users to download, install, and start using **HarmonyHaven**.
