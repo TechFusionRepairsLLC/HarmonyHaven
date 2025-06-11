@@ -1,4 +1,5 @@
 🎵 HarmonyHaven
+
 HarmonyHaven is an all-in-one music organization and playback tool developed by Alejandro X. Solis, CEO of TechFusion Repairs LLC. This desktop app helps users scan, organize, play, and manage music files with a user-friendly interface powered by Tkinter.
 
 🚀 Features
