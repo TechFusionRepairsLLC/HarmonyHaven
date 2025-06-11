@@ -1,82 +1,86 @@
-# HarmonyHaven by TechFusion Repairs LLC
+# HarmonyHaven
 
-**HarmonyHaven** is a powerful and easy-to-use music organization tool designed to help you manage your digital music collection effortlessly. This tool allows you to scan for music files, identify and remove duplicates, and organize them by genre and year. With additional search functionality, you can easily find specific songs in your collection.
+**HarmonyHaven** is a comprehensive music management and playback tool developed by TechFusion Repairs LLC. It helps users organize their music collection, play songs, and manage duplicates, all within an easy-to-use interface.
 
 ## Features
 
-- **Music File Scanning:** Automatically scan directories to locate all music files.
-- **Duplicate Removal:** Identify duplicate tracks and delete unwanted copies.
-- **Organize by Genre & Year:** Neatly organize your music collection into folders based on genre and year.
-- **Search Functionality:** Find any song by name, artist, or year.
-- **Customizable Settings:** Features like dark mode, volume control, and more are available to personalize your experience.
+- **Scan and Organize Music Files**: Easily scan directories and organize your music collection by ID3 tags (e.g., genre, artist, album).
+- **Duplicate Finder**: Automatically detect and delete duplicate music files based on MD5 hash.
+- **Music Playback**: Play music directly in the app, with options for pausing, stopping, and adjusting volume.
+- **Search Music**: Quickly search for songs by name and view their locations.
+- **Customizable Interface**: Change the app’s background color or set a background image to suit your preferences.
+- **Logging**: All actions and results are displayed in a log window for easy monitoring.
 
 ## Installation
 
-### Windows
+To install and run **HarmonyHaven**, follow these steps:
 
-1. **Download the Installer:**
-   - GitHub: [Download from GitHub](https://bit.ly/4ezEZ9g)
-   - Google Drive: [Download from Google Drive](bit.ly/HHTFRLLCZF)
+### Requirements
+- Python 3.6 or higher
+- The following Python libraries:
+  - `pygame` (for audio playback)
+  - `mutagen` (for handling metadata)
+  - `pydub` (for audio processing)
+  - `Pillow` (for image handling)
 
-2. **Run the Installer:** 
-   After downloading the installer, double-click the `HarmonyHavenSetup.exe` file to begin the installation.
+### Install Using `pip`
 
-3. **Follow On-Screen Instructions:**
-   Complete the setup process by following the instructions provided by the installer.
+You can install HarmonyHaven and its dependencies using `pip`:
 
-4. **Launch HarmonyHaven:**
-   Once installed, open **HarmonyHaven** to start organizing your music.
+```bash
+pip install HarmonyHaven
 
-### Running from Source
+Or if you're installing it from the GitHub repository:
+git clone https://github.com/TechFusionRepairs/HarmonyHaven.git
+cd HarmonyHaven
+pip install -r requirements.txt
 
-1. **Clone the repository from GitHub:**
+How to Use
+Here’s a brief guide on how to use the app:
 
-   ```bash
-   git clone https://github.com/YourRepo/HarmonyHaven.git
-   cd HarmonyHaven
-   ```
+Scanning Music Files
+Navigate to the "File Operations" tab, click on Scan Directory, and choose a folder to scan. The number of music files found will be logged.
 
-2. **Install required dependencies:**
+Finding Duplicate Files
+After scanning, click the Find Duplicates button. If duplicates are found, you can delete them directly from the log window.
 
-   Install dependencies listed in `requirements.txt` using pip:
+Playing Music
+Go to the Music Playback tab, select a song, and click Play Selected Song. Use the pause, stop, and volume controls to manage playback.
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+Searching for Songs
+In the Search Music tab, type a song name and click Search Song. The results will be displayed in the log window.
 
-3. **Run the application:**
+Organizing Music by ID3 Tags
+In the Organize Music tab, select primary and subfolder tags to organize your music by metadata (e.g., Genre, Artist, Year).
 
-   ```bash
-   python harmonyhaven.py
-   ```
+Adding Subfolders for Organizing
+Click Add Subfolder for Organizing to include additional music files from another directory.
 
-## How to Use
+Contributing
+We welcome contributions to HarmonyHaven! If you'd like to help, feel free to:
 
-1. **Scan for Music Files:**
-   - Input the directory containing your music files and scan for all supported audio formats (MP3, FLAC, WAV, etc.).
+Open issues for bugs or suggestions.
+Fork the repository, make changes, and submit a pull request.
+For major changes, please open an issue first to discuss what you would like to change.
 
-2. **Remove Duplicates:**
-   - Review and choose which duplicates to keep or delete.
+License
+HarmonyHaven is licensed under the MIT License. See the LICENSE file for more details.
 
-3. **Organize Music:**
-   - Organize your collection by genre and year, with the option to sort by year within genre folders.
+Contact
+For support, questions, or feedback, reach out to:
 
-4. **Search for Specific Tracks:**
-   - Use the search functionality to locate any song quickly by name, artist, or year.
+Developer: Alejandro X. Solis
+Email: TechFusionRepairs@gmail.com
+Website: TechFusion Repairs LLC
 
-## Feedback
+### Breakdown:
+1. **Introduction**: Briefly introduces what HarmonyHaven does.
+2. **Features**: Highlights the main capabilities of the app.
+3. **Installation**: Provides installation steps using `pip` and via GitHub.
+4. **How to Use**: Outlines the main usage instructions in a concise way.
+5. **Contributing**: Encourages users to contribute to the project.
+6. **License**: States the license under which the app is available.
+7. **Contact**: Includes your name, email, and a link to your business.
 
-We value your feedback! If you encounter any issues or have suggestions for improvement, please let us know by sending feedback via:
-
-- Email: **TechFusionRepairs@gmail.com**
-- X (Twitter): [@TechFusionRep](https://twitter.com/TechFusionRep)
-
-## Contributing
-
-Contributions are welcome! Please fork this repository, make your changes, and submit a pull request. Be sure to follow the coding guidelines.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
+This will give users a solid understanding of the app and how to get started, along with relevant links and documentation.
+© 2024 TechFusion Repairs LLC. All rights reserved.
