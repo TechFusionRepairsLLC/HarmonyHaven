@@ -1,86 +1,98 @@
-# HarmonyHaven
+🎵 HarmonyHaven
+HarmonyHaven is an all-in-one music organization and playback tool developed by Alejandro X. Solis, CEO of TechFusion Repairs LLC. This desktop app helps users scan, organize, play, and manage music files with a user-friendly interface powered by Tkinter.
 
-**HarmonyHaven** is a comprehensive music management and playback tool developed by TechFusion Repairs LLC. It helps users organize their music collection, play songs, and manage duplicates, all within an easy-to-use interface.
+🚀 Features
+🎼 Scan & Organize Music Files
+Automatically scan directories and organize your music using ID3 tags like Genre, Artist, Album, and Year.
 
-## Features
+🧹 Duplicate Finder
+Detect and remove duplicate songs using an MD5 hash-based comparison.
 
-- **Scan and Organize Music Files**: Easily scan directories and organize your music collection by ID3 tags (e.g., genre, artist, album).
-- **Duplicate Finder**: Automatically detect and delete duplicate music files based on MD5 hash.
-- **Music Playback**: Play music directly in the app, with options for pausing, stopping, and adjusting volume.
-- **Search Music**: Quickly search for songs by name and view their locations.
-- **Customizable Interface**: Change the app’s background color or set a background image to suit your preferences.
-- **Logging**: All actions and results are displayed in a log window for easy monitoring.
+🔊 Built-in Music Playback
+Select songs and control playback (Play, Pause, Stop) with an adjustable volume slider.
 
-## Installation
+🔍 Search Music Library
+Quickly search songs by name and view their locations in the log window.
 
-To install and run **HarmonyHaven**, follow these steps:
+🎨 Customizable Interface
+Change the background color or set a custom background image to personalize your workspace.
 
-### Requirements
-- Python 3.6 or higher
-- The following Python libraries:
-  - `pygame` (for audio playback)
-  - `mutagen` (for handling metadata)
-  - `pydub` (for audio processing)
-  - `Pillow` (for image handling)
+📝 Action Logging
+All actions and results are displayed in the log window for easy tracking and debugging.
 
-### Install Using `pip`
+📁 ID3-Based Folder Structuring
+Organize files into folders based on primary and secondary ID3 tags.
 
-You can install HarmonyHaven and its dependencies using `pip`:
+💌 Contact & Donation Support
+Access contact details, company information, and a PayPal donation QR code from the app.
 
-```bash
+📦 Installation
+🔧 Requirements
+Python 3.6 or higher
+
+Python packages:
+
+pygame
+
+mutagen
+
+pydub
+
+Pillow
+
+📥 Install via pip
+bash
+Copy
+Edit
 pip install HarmonyHaven
-
-Or if you're installing it from the GitHub repository:
+🛠️ Install from GitHub
+bash
+Copy
+Edit
 git clone https://github.com/TechFusionRepairs/HarmonyHaven.git
 cd HarmonyHaven
 pip install -r requirements.txt
+💡 How to Use
+📂 Scanning Music Files
+Go to the File Operations tab → click Scan Directory → choose your folder. Detected music files will be listed and logged.
 
-How to Use
-Here’s a brief guide on how to use the app:
+🔁 Finding Duplicate Files
+After scanning, click Find Duplicates. Detected duplicates can be removed directly from the interface.
 
-Scanning Music Files
-Navigate to the "File Operations" tab, click on Scan Directory, and choose a folder to scan. The number of music files found will be logged.
+🎧 Playing Music
+Switch to the Music Playback tab → select a song → click Play Selected Song. Use Pause, Stop, and Volume Slider as needed.
 
-Finding Duplicate Files
-After scanning, click the Find Duplicates button. If duplicates are found, you can delete them directly from the log window.
+🔍 Searching for Songs
+Under the Search Music tab, enter a song name → click Search Song. Results appear in the log window.
 
-Playing Music
-Go to the Music Playback tab, select a song, and click Play Selected Song. Use the pause, stop, and volume controls to manage playback.
+📁 Organizing by ID3 Tags
+Use the Organize Music tab to choose a primary and secondary tag (e.g., Genre → Artist) to auto-structure your music folders.
 
-Searching for Songs
-In the Search Music tab, type a song name and click Search Song. The results will be displayed in the log window.
+➕ Adding Additional Files
+Use the Add Subfolder for Organizing option to include files from multiple locations in your organization process.
 
-Organizing Music by ID3 Tags
-In the Organize Music tab, select primary and subfolder tags to organize your music by metadata (e.g., Genre, Artist, Year).
+🤝 Contributing
+We welcome your contributions!
+To get started:
 
-Adding Subfolders for Organizing
-Click Add Subfolder for Organizing to include additional music files from another directory.
+Open an issue for bugs or feature requests.
 
-Contributing
-We welcome contributions to HarmonyHaven! If you'd like to help, feel free to:
+Fork the repository.
 
-Open issues for bugs or suggestions.
-Fork the repository, make changes, and submit a pull request.
-For major changes, please open an issue first to discuss what you would like to change.
+Create your feature branch (git checkout -b feature/your-feature).
 
-License
-HarmonyHaven is licensed under the MIT License. See the LICENSE file for more details.
+Commit your changes.
 
-Contact
-For support, questions, or feedback, reach out to:
+Submit a pull request.
 
+For major changes, please start with an issue to discuss your ideas.
+
+📄 License
+HarmonyHaven is released under the MIT License.
+
+📬 Contact
 Developer: Alejandro X. Solis
 Email: TechFusionRepairs@gmail.com
 Website: TechFusion Repairs LLC
 
-### Breakdown:
-1. **Introduction**: Briefly introduces what HarmonyHaven does.
-2. **Features**: Highlights the main capabilities of the app.
-3. **Installation**: Provides installation steps using `pip` and via GitHub.
-4. **How to Use**: Outlines the main usage instructions in a concise way.
-5. **Contributing**: Encourages users to contribute to the project.
-6. **License**: States the license under which the app is available.
-7. **Contact**: Includes your name, email, and a link to your business.
-
-This will give users a solid understanding of the app and how to get started, along with relevant links and documentation.
 © 2024 TechFusion Repairs LLC. All rights reserved.
